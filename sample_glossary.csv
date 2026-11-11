@@ -1,0 +1,5 @@
+term,translation,explanation
+Normal distribution,正态分布,"A probability distribution described by its mean and spread"
+Paired t-test,配对样本 t 检验,"Compares related observations from the same participants"
+Gradient,梯度,"Direction of steepest increase of a function"
+Overfitting,过拟合,"Fits training data but may generalise poorly"

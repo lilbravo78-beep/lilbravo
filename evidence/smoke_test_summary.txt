@@ -1,0 +1,17 @@
+IIS A2 Lecture Companion v3 — local Chromium automated checks
+
+PASS — English slide panel is 2.63x the width of the Chinese notes panel (approximately 73% : 27% on desktop).
+PASS — Selecting an arbitrary phrase in slide text prefills the vocabulary editor.
+PASS — Built-in glossary match supplies an editable Chinese translation.
+PASS — Saving a selected phrase creates a Review item and updates navigation count.
+PASS — Manually entered vocabulary not in the glossary is accepted.
+PASS — Repeated term on the same slide is not duplicated.
+PASS — Review item displays source slide; explanation can be revealed and understanding marked.
+PASS — Gradient correct suggestion accepted; restart restores original.
+PASS — Overfitting false suggestion rejected; original maintained.
+PASS — Recall no-evidence example prevents ungrounded correction; save later remains available.
+PASS — Review items and state persist in the browser storage simulation.
+PASS — Mobile viewport retains slide, vocabulary control and Review list.
+PASS — No JavaScript page errors during tests.
+
+The automated run uses Chromium with HTML inserted directly and an in-memory storage substitute, because local-file/HTTP navigation is restricted in this execution environment. It is not a user study or proof of learning benefits. Students should test the prototype in their own browser.
