@@ -1,0 +1,20 @@
+IIS A2 v4 — automated browser smoke tests
+
+Runtime: headless Chromium via Python Playwright. AI-generated test script.
+Tested functionality:
+- Prepared CSV glossary import
+- Live English/Chinese panel ratio maintained
+- Highlight 'standard deviation' -> Chinese meaning shown immediately
+- Editable Chinese meaning on vocabulary card -> saved to separate Vocabulary Review
+- Caption flag auto-archived upon opening Gradient, Overfitting and Recall examples
+- Gradient deferred and accepted only after opening evidence; return to Live reflects accepted caption
+- Overfitting false suggestion rejected
+- Recall insufficient evidence: Accept disabled; pending preserved
+- Unknown term correctly reports that no matching Chinese meaning was found
+- Vocabulary and caption decisions recover from saved localStorage state in a fresh document
+- Both review lists usable in a 390px mobile-sized viewport
+- Zero JavaScript page errors reported
+
+Caveat: Automated reload recovery used a fresh document with the saved localStorage state injected through a mock. The test sandbox blocked file:// and localhost navigation; a real manual browser-refresh check of v4 is still recommended. Previous v3 manual tests are not independent v4 verification.
+
+These are functional smoke-test artifacts, not learning-outcome evidence or a supervised user study.

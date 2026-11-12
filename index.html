@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lecture Companion · IIS A2 Prototype v3</title>
+<title>Lecture Companion · IIS A2 Prototype v4</title>
 <style>
 :root{--navy:#19344b;--navy2:#263e56;--text:#1f3344;--mute:#637688;--teal:#00736f;--line:#dce4ea;--bg:#f5f7f9;--cream:#fff9eb;--cream-border:#e8d8ac;--pale:#eff7f7;--ok:#0b6850;--warn:#86561e;--violet:#65559a}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.54 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}button,select,input{max-width:100%}button{border:1px solid #b1c2cc;background:#fff;padding:9px 14px;border-radius:8px;color:var(--navy);font-size:14px;font-weight:650;cursor:pointer}button:hover:not(:disabled){background:#edf5f7}button:disabled{opacity:.48;cursor:not-allowed}button.primary{background:var(--teal);color:#fff;border-color:var(--teal)}button.primary:hover:not(:disabled){background:#075c5b}button.tiny{padding:6px 9px;font-size:12px}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #6da6d9;outline-offset:2px}.shell{max-width:1230px;margin:auto;padding:0 22px}.site-head{background:var(--navy);color:white}.brandbar{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:23px 0 14px}.eyebrow{color:#bad3df;font-size:12px;letter-spacing:.10em;text-transform:uppercase;font-weight:700}.brandbar h1{font-size:26px;margin:3px 0 0;line-height:1.15;font-weight:720}.subtitle{margin:4px 0 0;color:#cfdee7;font-size:13px}.version{border:1px solid #678494;padding:5px 10px;border-radius:99px;color:#e3eff4;font-size:12px;white-space:nowrap}.tabs{display:flex;gap:6px;border-top:1px solid #38536b;margin-top:10px}.tab{border:0;background:transparent;color:#cadae6;padding:14px 20px 13px;border-radius:7px 7px 0 0;font-weight:650}.tab.active{color:#173a4d;background:#f5f7f9}.tab:hover:not(.active){background:#344e64;color:#fff}main{padding-top:23px!important;padding-bottom:75px!important}.panel{background:white;border:1px solid var(--line);border-radius:12px;box-shadow:0 3px 13px #2a43510a;overflow:hidden}.panel-head{padding:15px 18px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:10px}.panel-head h2{font-size:17px;margin:0}.panel-body{padding:18px}.muted{color:var(--mute)}.small{font-size:13px}.xsmall{font-size:12px}.tag{display:inline-flex;gap:5px;align-items:center;background:#edf5f5;color:#075f5d;border-radius:6px;padding:4px 8px;font-weight:700;font-size:11px}.tag.sim{background:#fff3de;color:#80511c}.tag.planned{background:#f0effa;color:#615693}.pill{background:#eaf2f5;border-radius:99px;padding:5px 10px;font-size:12px;font-weight:650;color:#36566b}.note{padding:13px 16px;border:1px solid #ccdce5;border-left:4px solid #3d8292;background:#e9f2f5;border-radius:7px;margin-bottom:18px;font-size:13px}.note strong{color:#23495c}.section-title{font-size:20px;margin:0 0 4px}.intro{font-size:14px;color:var(--mute);margin:0 0 18px}.two{display:grid;grid-template-columns:1fr 1fr;gap:17px}.split{display:grid;grid-template-columns:minmax(0,2.5fr) minmax(260px,.95fr);gap:14px}.gap-top{margin-top:18px}.stack{display:grid;gap:14px}.field{display:grid;gap:7px;font-size:13px;font-weight:700}.field input[type=file],.field select,.field input[type=text]{border:1px solid #b9cad3;background:white;border-radius:8px;padding:9px;min-height:39px}.field input[type=file]{font-weight:400}.field-help{font-size:12px;color:var(--mute);font-weight:400}.item-line{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #edf1f3;padding:11px 0}.item-line:last-child{border-bottom:0}.item-line strong{font-size:14px}.ghost-list{margin:12px 0 0;padding-left:19px}.ghost-list li{margin:7px 0}.glossary-preview{max-height:220px;overflow:auto}.glossary-preview table{border-collapse:collapse;width:100%;font-size:13px}.glossary-preview td,.glossary-preview th{padding:9px;border-bottom:1px solid #edf1f3;text-align:left;vertical-align:top}.glossary-preview th{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.04em}.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.course-select{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:16px}.course-select label{font-size:13px;font-weight:700}.course-select select{min-width:290px;padding:9px 12px;border-radius:8px;border:1px solid #bdcbd4;background:#fff}.lecture-slide{background:#fff;padding:20px 22px 16px;min-height:360px}.slide-eyebrow{color:#718393;font-size:12px;letter-spacing:.06em;text-transform:uppercase;font-weight:730}.lecture-slide h3{font-weight:600;font-size:26px;color:#233746;margin:10px 0 16px}.lecture-slide ul{padding-left:20px;margin:0}.lecture-slide li{margin:8px 0;max-width:75ch}.formula{margin:20px 0 12px;border:1px solid #dfebf1;border-radius:8px;background:#f7fbfd;padding:14px 10px;text-align:center;color:#274660;font-size:18px;overflow-wrap:anywhere;line-height:1.6}.slide-foot{font-size:11px;color:#7e8b95;margin-top:20px}.cn-card{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}.cn-body{padding:16px 15px}.cn-body h3{font-size:18px;margin:3px 0 13px}.cn-body ul{padding-left:20px;margin:0}.cn-body li{margin:8px 0;font-size:13px}.takeaway{margin-top:16px;border:1px solid #cce0da;border-radius:8px;background:#f0f8f4;padding:11px 13px;font-size:13px}.caption-panel{margin-top:16px;background:#192f44;border-radius:10px;padding:16px 18px;color:#f2f8fd}.caption-label{color:#b1cadd;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700}.speech-text{font-size:13px;color:#cce0ed;margin:5px 0 14px}.cn-caption{font-size:18px;line-height:1.6;margin:7px 0 3px;font-weight:530}.caption-controls{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;margin-top:12px}.tool-panel{margin-top:18px}.tool-panel summary{cursor:pointer;font-weight:700;padding:14px 18px;list-style:none;display:flex;justify-content:space-between;align-items:center}.tool-panel summary::-webkit-details-marker{display:none}.tool-panel summary:after{content:'▾';color:var(--mute)}.tool-panel[open] summary:after{content:'▴'}.tool-panel .inside{border-top:1px solid var(--line);padding:17px 18px}.flag{padding:11px 13px;border-radius:8px;background:#fff6e9;border:1px solid #eddbba;font-size:13px}.flag.safe{background:#f0f7f5;border-color:#c9e3dc}.evidence{padding:12px;border:1px solid #cbdfe2;border-radius:8px;background:#f0f7f8;margin-top:12px;font-size:13px}.evidence blockquote{border-left:3px solid var(--teal);padding-left:12px;margin:7px 0 10px}.state{margin-top:12px;color:#266a67;font-weight:660;font-size:13px}.log{margin-top:12px;background:#f7f9fa;border-radius:8px;padding:11px 13px;max-height:190px;overflow:auto}.log ol{margin:0;padding-left:21px}.log li{font-size:12px;padding:3px 0}.termchips{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}.termchip{background:#f0f5f7;border:1px solid #cbdce5;padding:5px 10px;border-radius:99px;font-size:12px}.termchip strong{color:#176363}.empty{padding:28px;border:1px dashed #bbccd3;border-radius:10px;text-align:center;color:var(--mute);background:#fff}.reviewcard{border:1px solid var(--line);border-radius:10px;padding:16px;background:white}.reviewcard h3{font-size:18px;margin:0}.reviewgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.status{color:#176d62;font-size:12px;font-weight:700}.status.known{color:#5a5c91}.divider{height:1px;background:var(--line);margin:15px 0}.page{display:none}.page.active{display:block}.footer{margin-top:26px;font-size:12px;color:#6c7d88}.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.progressline{height:7px;background:#e5eeef;border-radius:10px;overflow:hidden}.progressline>span{display:block;height:7px;background:#16827a;width:0}.alert-inline{font-size:12px;color:#865220;padding-top:8px}.hover-action{color:#0a6862;text-decoration:underline;background:none;border:0;padding:0;font-size:12px;font-weight:650}.btn-link{border:0;background:none;text-decoration:underline;color:#0d6965;padding:2px;font-size:12px}.chunk{font-size:13px;line-height:1.48;color:#344c5a}.statbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:13px}.stat{border:1px solid var(--line);padding:9px 14px;border-radius:8px;background:#fff;font-size:13px}.stat strong{font-size:19px;color:#174b5e}.course-box{margin-top:16px;border:1px dashed #c3d2da;padding:13px;border-radius:9px;background:#fbfcfd}.file-preview{display:none;border:1px solid #d0dfe6;border-radius:8px;overflow:hidden;margin-top:12px}.file-preview iframe{border:0;width:100%;height:330px;background:#f5f6f8}.indicator{border:1px solid #d7e3e7;background:#f8fbfc;border-radius:8px;padding:11px 14px;margin-top:12px;font-size:12px;color:#4e697a}
@@ -22,12 +22,25 @@
 .cn-card .panel-head{padding:13px 15px}.cn-card .tag{font-size:10px}
 @media(max-width:560px){.word-editor .editor-grid{grid-template-columns:1fr}.slide-word-actions{align-items:flex-start}}
 @media(max-width:880px){.two,.split,.reviewgrid{grid-template-columns:1fr}.lecture-slide{min-height:0}.brandbar{align-items:flex-start}.version{white-space:normal}.course-select select{min-width:0}}@media(max-width:520px){.shell{padding-left:13px;padding-right:13px}.brandbar h1{font-size:22px}.tab{padding:12px 13px}.lecture-slide{padding:16px}.lecture-slide h3{font-size:23px}.cn-caption{font-size:16px}}
+/* V4: visible Chinese meaning on selection; independent caption review area. */
+.selected-meaning{font-size:12px;color:#315e5e;margin-top:4px;max-width:100%;overflow-wrap:anywhere}
+.meaning-source{font-size:12px;color:#547484;margin:0 0 11px}
+.review-section{margin-top:16px}.review-section .panel-body{padding:18px}
+.caption-card{border-left:4px solid #c3a16e}.caption-field{margin:9px 0;font-size:13px;line-height:1.5}
+.caption-field .field-title{display:block;font-size:11px;font-weight:700;color:#597083;margin-bottom:4px}
+.caption-quote{background:#f3f7f8;border-radius:7px;padding:9px 11px;margin:4px 0 8px;font-size:13px}
+.caption-review-actions{margin-top:13px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.caption-status{font-size:12px;font-weight:700;border-radius:20px;padding:4px 8px;background:#fff2da;color:#80511c}
+.caption-status.accepted{background:#e4f3ea;color:#16664d}.caption-status.rejected{background:#eceafa;color:#5c5491}
+.caption-evidence{border-top:1px solid var(--line);margin-top:12px;padding-top:11px}
+.caption-evidence[hidden]{display:none}
+@media(max-width:560px){.caption-review-actions{gap:5px}}
 </style>
 </head>
 <body>
 <header class="site-head">
   <div class="shell">
-    <div class="brandbar"><div><div class="eyebrow">Intelligent Interactive Systems · A2</div><h1>Lecture Companion</h1><p class="subtitle">A small learning-support prototype for second-language STEM lectures</p></div><span class="version">v3 · offline interactive demo</span></div>
+    <div class="brandbar"><div><div class="eyebrow">Intelligent Interactive Systems · A2</div><h1>Lecture Companion</h1><p class="subtitle">A small learning-support prototype for second-language STEM lectures</p></div><span class="version">v4 · offline interactive demo</span></div>
     <nav class="tabs" aria-label="Learning stages">
       <button class="tab active" data-page="prepare" aria-current="page">1 · Prepare</button>
       <button class="tab" data-page="live">2 · Live</button>
@@ -36,7 +49,7 @@
   </div>
 </header>
 <main class="shell">
-  <div class="note"><strong>Prototype scope:</strong> The page navigation, glossary import, user-selected vocabulary, caption decisions and review list work locally. Lecture speech, translated captions, slide explanations and AI alerts are prepared demonstrations. This is not a live speech translation or automatic PPT-analysis system.</div>
+  <div class="note"><strong>Prototype scope:</strong> The page navigation, glossary import, student-selected vocabulary, and separate vocabulary/caption review lists work locally. Lecture speech, translated captions, slide explanations and AI alerts are prepared demonstrations. This is not a live speech translation or automatic PPT-analysis system.</div>
 
   <section class="page active" id="page-prepare" aria-label="Prepare before class">
     <h2 class="section-title">Prepare · Before class</h2>
@@ -64,19 +77,43 @@
     <div class="course-select"><label for="slide-selector">Lecture example</label><select id="slide-selector"><optgroup label="Statistics &amp; research methods"><option value="normal">Normal distribution</option><option value="paired">Paired samples t-test</option></optgroup><optgroup label="Research ethics"><option value="consent">Informed consent</option></optgroup><optgroup label="Computing · Caption correction demos"><option value="gradient">Gradient direction · translation error</option><option value="overfit">Overfitting · false AI suggestion</option><option value="recall">Recall · insufficient evidence</option></optgroup></select><span class="pill" id="slide-number">Slide 1 / 6</span></div>
     <div class="split">
       <section class="panel" aria-labelledby="original-slide-heading"><div class="panel-head"><h2 id="original-slide-heading">English original</h2><span class="tag sim">Prepared demo slide</span></div><div class="lecture-slide slide-content" id="slide-content"><div class="slide-eyebrow" id="slide-topic"></div><h3 id="slide-title"></h3><ul id="english-points"></ul><div class="formula" id="slide-formula" hidden></div><div class="slide-foot" id="slide-source"></div></div>
-        <div class="slide-word-actions"><div><strong>Build your vocabulary list</strong><p>Select an unfamiliar word or phrase in the English slide. You can also type a word yourself.</p><div class="selected-preview" id="selected-preview" aria-live="polite"></div></div><button class="primary" id="add-selection">+ Add a word</button></div>
-        <div class="word-editor" id="word-editor" hidden><div class="editor-grid"><label>English word or phrase<input id="word-term" type="text" maxlength="100" placeholder="e.g. standard deviation"></label><label>中文含义（可选）<input id="word-translation" type="text" maxlength="140" placeholder="可自行填写"></label></div><label>My note (optional)<input id="word-note" type="text" maxlength="220" placeholder="Why do I want to review this?"></label><div class="actions" style="margin-top:12px"><button class="primary" id="save-selected-word">Save to Review</button><button id="cancel-selected-word">Cancel</button></div></div>
+        <div class="slide-word-actions"><div><strong>Build your vocabulary list</strong><p>Select an unfamiliar word or phrase in the English slide. You can also type a word yourself.</p><div class="selected-preview" id="selected-preview" aria-live="polite"></div><div class="selected-meaning" id="selected-meaning" role="status" aria-live="polite"></div></div><button class="primary" id="add-selection">+ Add a word</button></div>
+        <div class="word-editor" id="word-editor" hidden><div class="editor-grid"><label>English word or phrase<input id="word-term" type="text" maxlength="100" placeholder="e.g. standard deviation"></label><label>中文释义（可编辑）<input id="word-translation" type="text" maxlength="140" placeholder="匹配词库，或自行填写"></label></div><p id="meaning-source" class="meaning-source" aria-live="polite"></p><label>My note (optional)<input id="word-note" type="text" maxlength="220" placeholder="Why do I want to review this?"></label><div class="actions" style="margin-top:12px"><button class="primary" id="save-selected-word">Save to Review</button><button id="cancel-selected-word">Cancel</button></div></div>
         <p id="word-feedback" class="word-feedback" role="status" aria-live="polite"></p>
       </section>
       <section class="cn-card" aria-labelledby="chinese-heading"><div class="panel-head"><h2 id="chinese-heading">中文辅助理解</h2><span class="tag sim">预先准备</span></div><div class="cn-body"><h3 id="cn-title"></h3><ul id="cn-points"></ul><div class="takeaway" id="takeaway"></div><div class="divider"></div><div class="small muted" style="font-weight:700">Key terminology</div><div class="termchips" id="termchips"></div><div class="actions" style="margin-top:14px"><button id="save-concept" class="primary">Save concept to Review</button><button id="next-slide">Next slide →</button></div><p id="save-feedback" class="xsmall muted" aria-live="polite"></p></div></section>
     </div>
     <section class="caption-panel" aria-label="Lecture captions"><div class="caption-label">English speech excerpt · prepared example</div><div id="english-speech" class="speech-text"></div><div class="caption-label">Chinese live caption · simulated</div><p id="chinese-caption" class="cn-caption"></p><div class="caption-controls"><span class="xsmall" id="caption-state" aria-live="polite">Original demo subtitle</span><span class="xsmall" style="color:#bad7dc">No microphone or translation API connected</span></div></section>
     <details class="panel tool-panel" id="correction-panel"><summary>Caption review <span class="tag sim" id="flag-tag">Scripted AI result</span></summary><div class="inside"><div class="flag" id="ai-warning"></div><div class="actions" style="margin-top:12px"><button id="check-evidence" class="primary">Check slide evidence</button><button id="accept-correction" disabled>Accept correction</button><button id="reject-correction">Reject suggestion</button><button id="save-later">Save for later</button><button id="restart-example">Restart this example</button></div><div id="evidence-block" class="evidence" hidden><strong>Course evidence</strong><blockquote id="evidence-quote"></blockquote><div class="muted xsmall" id="evidence-source"></div><p id="proposed-change" class="xsmall"></p></div><div class="state" id="correction-state" aria-live="polite">Current decision: No action yet</div><details style="margin-top:16px"><summary style="padding:0;font-size:12px;color:#53697a;font-weight:600">Interaction trace (this session)</summary><div class="log"><ol id="event-log"></ol></div></details></div></details>
-    <div class="indicator">The statistics and ethics examples are brief teaching summaries based on the two bilingual study aids you supplied. You can select any word in the prepared slide to create your own review card. The computing examples retain the earlier prototype's three correction situations.</div>
+    <div class="indicator">Potential caption issues are recorded in Caption Correction Review when their demo slide is opened. You can defer a decision and continue listening; no correction is applied automatically.</div><div class="indicator">The statistics and ethics examples are brief teaching summaries based on the two bilingual study aids you supplied. You can select any word in the prepared slide to create your own review card. The computing examples retain the earlier prototype's three correction situations.</div>
   </section>
 
-  <section class="page" id="page-review" aria-label="Review after class"><h2 class="section-title">Review · After class</h2><p class="intro">Revisit the terms and concepts you saved during a lecture.</p><div class="statbar"><span class="stat"><strong id="saved-total">0</strong> saved</span><span class="stat"><strong id="known-total">0</strong> understood</span><span class="stat"><strong id="pending-total">0</strong> still to review</span></div><div class="progressline" aria-label="Review progress"><span id="review-progress"></span></div><div class="actions" style="margin:17px 0"><button id="review-refresh">Refresh list</button><button id="clear-review">Clear all saved items</button></div><div class="reviewgrid" id="review-cards"></div><div id="review-empty" class="empty">Nothing saved yet. In Live, select a word on the slide and choose <strong>+ Add a word</strong>, or save a concept or caption.</div><p class="footer">This review list is stored in this browser using localStorage. It is not a spaced-repetition algorithm and has not been evaluated for learning outcomes.</p></section>
-  <p class="footer">IIS A2 prototype v3 · For coursework demonstration only · See README.md for implementation status, source attribution and AI assistance.</p>
+  <section class="page" id="page-review" aria-label="Review after class">
+    <h2 class="section-title">Review · After class</h2>
+    <p class="intro">Two separate lists: revisit unfamiliar vocabulary and check potentially incorrect captions when you have time.</p>
+    <section class="panel review-section" aria-labelledby="vocab-review-heading">
+      <div class="panel-head"><h2 id="vocab-review-heading">Vocabulary Review</h2><span class="tag">Working interaction</span></div>
+      <div class="panel-body">
+        <p class="small muted">Words and concepts saved during Live. Reveal a meaning when you are ready to check it.</p>
+        <div class="statbar"><span class="stat"><strong id="saved-total">0</strong> saved</span><span class="stat"><strong id="known-total">0</strong> understood</span><span class="stat"><strong id="pending-total">0</strong> still to review</span></div>
+        <div class="progressline" aria-label="Vocabulary review progress"><span id="review-progress"></span></div>
+        <div class="actions" style="margin:17px 0"><button id="review-refresh">Refresh lists</button><button id="clear-review">Clear vocabulary list</button></div>
+        <div class="reviewgrid" id="review-cards"></div>
+        <div id="review-empty" class="empty">No vocabulary saved yet. In Live, select a term and choose <strong>+ Add a word</strong>, or save a concept.</div>
+      </div>
+    </section>
+    <section class="panel review-section" aria-labelledby="caption-review-heading">
+      <div class="panel-head"><h2 id="caption-review-heading">Caption Correction Review</h2><span class="tag sim">Scripted AI flags</span></div>
+      <div class="panel-body">
+        <p class="small muted">Potential issues from visited caption examples are stored here automatically. Compare the original subtitle, suggested change and course evidence before deciding. Uncertain cases may remain pending.</p>
+        <div class="statbar"><span class="stat"><strong id="caption-total">0</strong> flagged</span><span class="stat"><strong id="caption-pending">0</strong> pending</span><span class="stat"><strong id="caption-reviewed">0</strong> decided</span></div>
+        <div class="reviewgrid" id="caption-cards"></div>
+        <div id="caption-empty" class="empty">No caption flags yet. Open Gradient Direction, Overfitting or Recall in Live to see the scripted cases.</div>
+      </div>
+    </section>
+    <p class="footer">Review records are saved in this browser using localStorage; they are not synchronised with an account. The scripted correction cases do not use live speech recognition, translation, or AI inference.</p>
+  </section>
+  <p class="footer">IIS A2 prototype v4 · For coursework demonstration only · See README.md for implementation status, source attribution and AI assistance.</p>
 </main>
 <script>
 'use strict';
@@ -94,10 +131,12 @@ const storageKey='iis-a2-lecture-companion-v2-review'; // kept for continuity wi
 const glossaryKey='iis-a2-lecture-companion-v2-glossary';
 function loadSaved(key,fallback){try{const v=JSON.parse(localStorage.getItem(key));return Array.isArray(v)?v:fallback}catch{return fallback}}
 let saved=loadSaved(storageKey,[]), glossary=loadSaved(glossaryKey,[]), activeSlide='normal', state='pending', evidenceSeen=false, trace=[];
+// Existing v3 caption entries used 'review' as their status. Preserve and normalise them.
+saved.forEach(item=>{if(item.from==='caption'&&!['pending','accepted','rejected'].includes(item.status))item.status='pending'});
 let currentPdfURL=null;
 let selectedSlideText='';
 function persist(){try{localStorage.setItem(storageKey,JSON.stringify(saved));localStorage.setItem(glossaryKey,JSON.stringify(glossary))}catch{}}
-function nav(page){document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id==='page-'+page));document.querySelectorAll('.tab').forEach(b=>{const selected=b.dataset.page===page;b.classList.toggle('active',selected);if(selected)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='review')renderReview();window.scrollTo({top:0,behavior:'instant'})}
+function nav(page){document.querySelectorAll('.page').forEach(e=>e.classList.toggle('active',e.id==='page-'+page));document.querySelectorAll('.tab').forEach(b=>{const selected=b.dataset.page===page;b.classList.toggle('active',selected);if(selected)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current')});if(page==='review')renderReview();if(page==='live')loadSlide();window.scrollTo({top:0,behavior:'instant'})}
 document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>nav(b.dataset.page)));
 $('go-live').addEventListener('click',()=>nav('live'));
 $('slide-file').addEventListener('change',e=>{const f=e.target.files&&e.target.files[0];if(currentPdfURL){URL.revokeObjectURL(currentPdfURL);currentPdfURL=null}if(!f){$('file-status').textContent='No personal file selected.';$('pdf-preview').style.display='none';return}const suffix=f.name.split('.').pop().toLowerCase();$('file-status').textContent='Selected locally: '+f.name+' (not automatically translated or analysed).';if(suffix==='pdf'){$('pdf-preview').style.display='block';currentPdfURL=URL.createObjectURL(f);$('pdf-frame').src=currentPdfURL}else{$('pdf-preview').style.display='none';$('pdf-frame').removeAttribute('src')}});
@@ -122,31 +161,42 @@ function captureSlideSelection(){
   if(!term)return;
   selectedSlideText=term;
   $('selected-preview').textContent='Selected: “'+term+'”';
+  showSelectedMeaning(term);
   $('word-feedback').textContent='';
 }
 $('slide-content').addEventListener('mouseup',captureSlideSelection);
 $('slide-content').addEventListener('keyup',captureSlideSelection);
 function matchedTerm(term){
-  const norm=term.trim().toLocaleLowerCase();
+  const norm=term.trim().replace(/^[^\p{L}\p{N}]+|[^\p{L}\p{N}]+$/gu,'').replace(/\s+/g,' ').toLocaleLowerCase();
   const glossaryMatch=glossary.find(g=>g.term.trim().toLocaleLowerCase()===norm);
-  if(glossaryMatch)return {translation:glossaryMatch.translation,explanation:glossaryMatch.explanation};
+  if(glossaryMatch)return {translation:glossaryMatch.translation==='—'?'':glossaryMatch.translation,explanation:glossaryMatch.explanation,source:'Imported glossary'};
   const slideMatch=content[activeSlide].terms.find(t=>t[0].toLocaleLowerCase()===norm);
-  return slideMatch?{translation:slideMatch[1],explanation:slideMatch[2]}:{translation:'',explanation:''};
+  return slideMatch?{translation:slideMatch[1],explanation:slideMatch[2],source:'Prepared slide glossary'}:{translation:'',explanation:'',source:'No glossary match'};
+}
+function showSelectedMeaning(term){
+  const m=matchedTerm(term);
+  $('selected-meaning').textContent=m.translation?'中文释义：'+m.translation+' · '+m.source:'No matching Chinese meaning in the imported or demo glossary. You can add or edit one below.';
+}
+let wordMeaningEdited=false;
+function fillWordMeaning(term){
+  const m=matchedTerm(term);
+  if(!wordMeaningEdited)$('word-translation').value=m.translation;
+  $('meaning-source').textContent=m.translation?'Suggested meaning from '+m.source+'; you can edit it before saving.':'No matching meaning found. Enter a Chinese explanation if you know it.';
 }
 $('add-selection').addEventListener('click',()=>{
-  // Retain the highlighted text even if clicking the button removes the browser selection.
   const term=selectedSlideText||slideSelectionText();
   $('word-term').value=term;
-  const m=term?matchedTerm(term):{translation:'',explanation:''};
-  $('word-translation').value=m.translation==='—'?'':m.translation;
+  wordMeaningEdited=false;
+  fillWordMeaning(term);
   $('word-note').value='';
   $('word-editor').hidden=false;
   $('word-feedback').textContent='';
   $('word-term').focus();
 });
+$('word-translation').addEventListener('input',()=>{wordMeaningEdited=true});
 $('word-term').addEventListener('input',()=>{
-  const m=matchedTerm($('word-term').value);
-  if(m.translation&&m.translation!=='—'&& !$('word-translation').value.trim())$('word-translation').value=m.translation;
+  // An auto-filled meaning follows the selected term until the learner edits it.
+  fillWordMeaning($('word-term').value);
 });
 $('cancel-selected-word').addEventListener('click',()=>{
   $('word-editor').hidden=true;
@@ -166,29 +216,158 @@ $('save-selected-word').addEventListener('click',()=>{
   persist();updateCounts();
   $('word-feedback').textContent='“'+term+'” added to Review. Open Review to practise it.';
   $('word-editor').hidden=true;
-  selectedSlideText='';$('selected-preview').textContent='';
+  selectedSlideText='';$('selected-preview').textContent='';$('selected-meaning').textContent='';
   window.getSelection()?.removeAllRanges();
   log('Student saved selected word: '+term);
 });
 function renderTermchips(){const slide=content[activeSlide];if(!slide)return;const matches=glossary.filter(g=>[slide.title,slide.english.join(' '),slide.terms.map(t=>t[0]).join(' ')].join(' ').toLowerCase().includes(g.term.toLowerCase()));const terms=matches.length?matches.map(g=>[g.term,g.translation]):slide.terms.map(t=>t.slice(0,2));$('termchips').replaceChildren();if(!terms.length){$('termchips').append(el('span','No term identified in this example.','muted xsmall'));return}for(const [en,zh] of terms){const span=el('span',en+' · '+zh,'termchip');$('termchips').append(span)}}
 function log(message){trace.push(message);$('event-log').replaceChildren();trace.forEach(x=>$('event-log').append(el('li',x)))}
 function setDecision(txt){state=txt;$('correction-state').textContent='Current decision: '+txt}
-function loadSlide(){const s=content[activeSlide];$('slide-selector').value=activeSlide;$('slide-number').textContent='Slide '+(order.indexOf(activeSlide)+1)+' / '+order.length;$('slide-topic').textContent=s.category;$('slide-title').textContent=s.title;putList('english-points',s.english);$('slide-formula').hidden=!s.formula;$('slide-formula').textContent=s.formula;$('slide-source').textContent=s.source;$('cn-title').textContent=s.cnTitle;putList('cn-points',s.chinese);$('takeaway').textContent=s.takeaway;$('english-speech').textContent=s.speech;$('chinese-caption').textContent=s.caption;$('caption-state').textContent='Original demo subtitle';$('save-feedback').textContent='';selectedSlideText='';$('selected-preview').textContent='';$('word-editor').hidden=true;$('word-feedback').textContent='';renderTermchips();renderCorrection();}
-function renderCorrection(){const r=content[activeSlide].review;trace=[];evidenceSeen=false;$('event-log').replaceChildren();setDecision('No action yet');$('evidence-block').hidden=true;$('accept-correction').disabled=true;$('restart-example').disabled=false;const off=!r||r.type==='missing';$('check-evidence').disabled=off;$('reject-correction').disabled=off;$('save-later').disabled=!r;$('check-evidence').textContent=off?'No evidence to check':'Check slide evidence';if(!r){$('flag-tag').textContent='No error flagged';$('ai-warning').textContent='No correction suggestion is attached to this slide. You can still save the concept for review.';$('ai-warning').className='flag safe';log('Prepared slide loaded: '+content[activeSlide].title)}else{$('flag-tag').textContent=r.type==='missing'?'Insufficient evidence':'Unverified AI flag';$('ai-warning').textContent=r.warning;$('ai-warning').className='flag'+(r.type==='missing'?' safe':'');log('Correction example loaded: '+content[activeSlide].title);if(r.type==='missing')log('Prepared evidence contains no relevant definition; no correction proposed')}
+function loadSlide(){const s=content[activeSlide];$('slide-selector').value=activeSlide;$('slide-number').textContent='Slide '+(order.indexOf(activeSlide)+1)+' / '+order.length;$('slide-topic').textContent=s.category;$('slide-title').textContent=s.title;putList('english-points',s.english);$('slide-formula').hidden=!s.formula;$('slide-formula').textContent=s.formula;$('slide-source').textContent=s.source;$('cn-title').textContent=s.cnTitle;putList('cn-points',s.chinese);$('takeaway').textContent=s.takeaway;$('english-speech').textContent=s.speech;$('chinese-caption').textContent=s.caption;$('caption-state').textContent='Original demo subtitle';$('save-feedback').textContent='';selectedSlideText='';$('selected-preview').textContent='';$('selected-meaning').textContent='';$('word-editor').hidden=true;$('word-feedback').textContent='';renderTermchips();renderCorrection();}
+function renderCorrection(){const r=content[activeSlide].review;trace=[];evidenceSeen=false;$('event-log').replaceChildren();setDecision('No action yet');$('evidence-block').hidden=true;$('accept-correction').disabled=true;$('restart-example').disabled=false;const off=!r||r.type==='missing';$('check-evidence').disabled=off;$('reject-correction').disabled=off;$('save-later').disabled=!r;$('check-evidence').textContent=off?'No evidence to check':'Check slide evidence';if(r)ensureCaptionItem(activeSlide);if(!r){$('flag-tag').textContent='No error flagged';$('ai-warning').textContent='No correction suggestion is attached to this slide. You can still save the concept for review.';$('ai-warning').className='flag safe';log('Prepared slide loaded: '+content[activeSlide].title)}else{$('flag-tag').textContent=r.type==='missing'?'Insufficient evidence':'Unverified AI flag';$('ai-warning').textContent=r.warning;$('ai-warning').className='flag'+(r.type==='missing'?' safe':'');log('Correction example loaded: '+content[activeSlide].title);const prior=captionItem(activeSlide);if(prior?.status==='accepted'&&r.corrected){$('chinese-caption').textContent=r.corrected;$('caption-state').textContent='Previously accepted correction';for(const id of ['accept-correction','reject-correction','save-later'])$(id).disabled=true;setDecision('Previously accepted — saved in Caption Correction Review')}else if(prior?.status==='rejected'){for(const id of ['accept-correction','reject-correction','save-later'])$(id).disabled=true;setDecision('Previously rejected — original caption retained')}else{setDecision('Flag recorded in Caption Correction Review — you may decide later')}if(r.type==='missing')log('Prepared evidence contains no relevant definition; no correction proposed')}
 }
 $('slide-selector').addEventListener('change',e=>{activeSlide=e.target.value;loadSlide()});
 $('next-slide').addEventListener('click',()=>{activeSlide=order[(order.indexOf(activeSlide)+1)%order.length];loadSlide()});
-function addSaved(from){const s=content[activeSlide];const key=from==='caption'?'caption-'+activeSlide:'concept-'+activeSlide;const found=saved.find(x=>x.key===key);if(found){$('save-feedback').textContent='Already in your Review list.';return}saved.unshift({key,from,title:s.title,translation:s.cnTitle,explanation:from==='caption'?(s.review?.type==='missing'?'Check the source definition after class.':s.takeaway):s.takeaway,status:'review'});persist();updateCounts();$('save-feedback').textContent='Saved to Review (this browser).';log((from==='caption'?'Caption question':'Concept')+' saved to Review')}
-$('save-concept').addEventListener('click',()=>addSaved('concept'));
+function addSavedConcept(){
+  const s=content[activeSlide],key='concept-'+activeSlide;
+  if(saved.some(x=>x.key===key)){$('save-feedback').textContent='Already in Vocabulary Review.';return}
+  saved.unshift({key,from:'concept',title:s.title,translation:s.cnTitle,explanation:s.takeaway,sourceSlide:s.title,status:'review'});
+  persist();updateCounts();$('save-feedback').textContent='Concept saved to Vocabulary Review.';
+  log('Student saved concept: '+s.title);
+}
+function captionItem(id){return saved.find(x=>x.from==='caption'&&x.key==='caption-'+id)}
+function ensureCaptionItem(id){
+  const s=content[id],r=s&&s.review;if(!r)return null;
+  let item=captionItem(id);
+  if(!item){
+    item={key:'caption-'+id,from:'caption',slideId:id,title:s.title,originalCaption:s.caption,
+      suggestedCaption:r.corrected||'',proposedChange:r.proposed||'',
+      warning:r.warning,evidence:r.quote||'',evidenceSource:r.source||'',
+      status:'pending'};
+    saved.unshift(item);persist();updateCounts();
+  }else{
+    // Upgrade a v2/v3 caption card without deleting the user's previous records.
+    if(!item.slideId)item.slideId=id;
+    if(!item.originalCaption)item.originalCaption=s.caption;
+    if(item.suggestedCaption===undefined)item.suggestedCaption=r.corrected||'';
+    if(item.proposedChange===undefined)item.proposedChange=r.proposed||'';
+    if(item.evidence===undefined)item.evidence=r.quote||'';
+    if(item.evidenceSource===undefined)item.evidenceSource=r.source||'';
+    if(!item.warning)item.warning=r.warning;
+    if(!['pending','accepted','rejected'].includes(item.status))item.status='pending';
+    persist();
+  }
+  return item;
+}
+function decideCaption(id,decision){
+  const item=ensureCaptionItem(id);if(!item)return;
+  if(decision==='accepted'&&!item.suggestedCaption)return;
+  item.status=decision;
+  persist();updateCounts();
+}
+$('save-concept').addEventListener('click',addSavedConcept);
 $('check-evidence').addEventListener('click',()=>{const r=content[activeSlide].review;if(!r||r.type==='missing')return;$('evidence-quote').textContent=r.quote;$('evidence-source').textContent=r.source;$('proposed-change').textContent=r.proposed;$('evidence-block').hidden=false;evidenceSeen=true;$('accept-correction').disabled=false;setDecision('Evidence viewed; awaiting your choice');log('Student opened slide evidence')});
-$('accept-correction').addEventListener('click',()=>{const r=content[activeSlide].review;if(!r||!evidenceSeen||r.type==='missing')return;$('chinese-caption').textContent=r.corrected;$('caption-state').textContent='Caption changed after learner acceptance';$('accept-correction').disabled=true;$('reject-correction').disabled=true;$('save-later').disabled=true;setDecision('Correction accepted'+(r.type==='false'?' (wrong suggestion example)':''));log('Student accepted suggestion; caption changed')});
-$('reject-correction').addEventListener('click',()=>{const r=content[activeSlide].review;if(!r||r.type==='missing')return;$('accept-correction').disabled=true;$('reject-correction').disabled=true;$('save-later').disabled=true;setDecision('Suggestion rejected; original caption retained');log('Student rejected suggestion; caption unchanged')});
-$('save-later').addEventListener('click',()=>{const r=content[activeSlide].review;if(!r)return;addSaved('caption');$('accept-correction').disabled=true;$('reject-correction').disabled=true;$('save-later').disabled=true;setDecision('Saved for later review; no caption change');log('Student deferred this question')});
-$('restart-example').addEventListener('click',loadSlide);
-function updateCounts(){$('nav-count').textContent=saved.length?'('+saved.length+')':'';$('saved-total').textContent=saved.length;const done=saved.filter(x=>x.status==='known').length;$('known-total').textContent=done;$('pending-total').textContent=saved.length-done;$('review-progress').style.width=saved.length?(done/saved.length*100)+'%':'0%'}
-function renderReview(){updateCounts();$('review-cards').replaceChildren();$('review-empty').style.display=saved.length?'none':'block';saved.forEach(item=>{const card=el('article','','reviewcard');const header=el('div','','item-line');const info=el('div');info.append(el('h3',item.title),el('div',item.from==='caption'?'Saved caption question':item.from==='word'?'Selected from '+(item.sourceSlide||'lecture slide'):'Saved lecture concept','muted xsmall'));header.append(info,el('span',item.status==='known'?'Understood':'Needs review','status'+(item.status==='known'?' known':'')));card.append(header);const question=el('p','Try to recall the meaning before opening the explanation.','small muted');card.append(question);const explanation=el('p',((item.translation&&item.translation!=='—')?item.translation+' — ':'')+item.explanation,'chunk');explanation.hidden=true;const actions=el('div','','actions');const show=el('button','Reveal explanation','tiny');show.addEventListener('click',()=>{explanation.hidden=!explanation.hidden;show.textContent=explanation.hidden?'Reveal explanation':'Hide explanation'});const statusBtn=el('button',item.status==='known'?'Mark for review':'Mark as understood','tiny');statusBtn.addEventListener('click',()=>{item.status=item.status==='known'?'review':'known';persist();renderReview()});const remove=el('button','Remove','tiny');remove.addEventListener('click',()=>{saved=saved.filter(x=>x.key!==item.key);persist();renderReview()});actions.append(show,statusBtn,remove);card.append(explanation,actions);$('review-cards').append(card)})}
+$('accept-correction').addEventListener('click',()=>{
+  const r=content[activeSlide].review;if(!r||!evidenceSeen||!r.corrected)return;
+  decideCaption(activeSlide,'accepted');
+  $('chinese-caption').textContent=r.corrected;
+  $('caption-state').textContent='Caption changed after learner acceptance';
+  for(const id of ['accept-correction','reject-correction','save-later'])$(id).disabled=true;
+  setDecision('Correction accepted'+(r.type==='false'?' (wrong suggestion example)':''));
+  log('Student accepted the suggestion; status saved to Caption Correction Review');
+});
+$('reject-correction').addEventListener('click',()=>{
+  const r=content[activeSlide].review;if(!r)return;
+  decideCaption(activeSlide,'rejected');
+  $('chinese-caption').textContent=content[activeSlide].caption;
+  for(const id of ['accept-correction','reject-correction','save-later'])$(id).disabled=true;
+  setDecision('Suggestion rejected; original caption retained');
+  log('Student rejected the suggestion; status saved to Caption Correction Review');
+});
+$('save-later').addEventListener('click',()=>{
+  const r=content[activeSlide].review;if(!r)return;
+  decideCaption(activeSlide,'pending');
+  for(const id of ['accept-correction','reject-correction','save-later'])$(id).disabled=true;
+  setDecision('Pending in Caption Correction Review; no caption change');
+  log('Student deferred this question for later review');
+});
+$('restart-example').addEventListener('click',()=>{
+  // Reset this staged demonstration and its stored decision, but keep its review card.
+  if(content[activeSlide].review)decideCaption(activeSlide,'pending');
+  loadSlide();
+});
+function vocabularyItems(){return saved.filter(x=>x.from!=='caption')}
+function captionItems(){return saved.filter(x=>x.from==='caption')}
+function updateCounts(){
+  const vocab=vocabularyItems(),captions=captionItems();
+  $('nav-count').textContent=saved.length?'('+saved.length+')':'';
+  $('saved-total').textContent=vocab.length;
+  const done=vocab.filter(x=>x.status==='known').length;
+  $('known-total').textContent=done;
+  $('pending-total').textContent=vocab.length-done;
+  $('review-progress').style.width=vocab.length?(done/vocab.length*100)+'%':'0%';
+  $('caption-total').textContent=captions.length;
+  $('caption-pending').textContent=captions.filter(x=>x.status==='pending').length;
+  $('caption-reviewed').textContent=captions.filter(x=>x.status!=='pending').length;
+}
+function renderVocabulary(){
+  const vocab=vocabularyItems();
+  $('review-cards').replaceChildren();$('review-empty').style.display=vocab.length?'none':'block';
+  vocab.forEach(item=>{
+    const card=el('article','','reviewcard');
+    const header=el('div','','item-line'),info=el('div');
+    info.append(el('h3',item.title),el('div',item.from==='word'?'Selected from '+(item.sourceSlide||'lecture slide'):'Saved lecture concept','muted xsmall'));
+    header.append(info,el('span',item.status==='known'?'Understood':'Needs review','status'+(item.status==='known'?' known':'')));
+    card.append(header,el('p','Try to recall the meaning before opening the explanation.','small muted'));
+    const explanation=el('p',((item.translation&&item.translation!=='—')?item.translation+' — ':'')+(item.explanation||'No meaning saved yet.'),'chunk');
+    explanation.hidden=true;
+    const actions=el('div','','actions'),show=el('button','Reveal explanation','tiny');
+    show.addEventListener('click',()=>{explanation.hidden=!explanation.hidden;show.textContent=explanation.hidden?'Reveal explanation':'Hide explanation'});
+    const statusBtn=el('button',item.status==='known'?'Mark for review':'Mark as understood','tiny');
+    statusBtn.addEventListener('click',()=>{item.status=item.status==='known'?'review':'known';persist();renderReview()});
+    const remove=el('button','Remove','tiny');remove.addEventListener('click',()=>{saved=saved.filter(x=>x.key!==item.key);persist();renderReview()});
+    actions.append(show,statusBtn,remove);card.append(explanation,actions);$('review-cards').append(card);
+  });
+}
+function renderCaptionCards(){
+  const captions=captionItems();
+  $('caption-cards').replaceChildren();$('caption-empty').style.display=captions.length?'none':'block';
+  captions.forEach(item=>{
+    // Reuse original scripted evidence for older v3 cards that lacked snapshots.
+    const sid=item.slideId||(item.key||'').replace(/^caption-/,''),scenario=content[sid];
+    const original=item.originalCaption||scenario?.caption||'Not available';
+    const suggestion=item.suggestedCaption??scenario?.review?.corrected??'';
+    const evidence=item.evidence||scenario?.review?.quote||'';
+    const proposed=item.proposedChange||scenario?.review?.proposed||'';
+    const card=el('article','','reviewcard caption-card');
+    const header=el('div','','item-line'),info=el('div');
+    info.append(el('h3',item.title),el('div','Scripted caption flag · '+(scenario?.category||'Lecture example'),'muted xsmall'));
+    const label=item.status==='accepted'?'Accepted':item.status==='rejected'?'Rejected':'Pending';
+    header.append(info,el('span',label,'caption-status '+(item.status==='accepted'?'accepted':item.status==='rejected'?'rejected':'')));
+    card.append(header);
+    const originalArea=el('div','','caption-field');originalArea.append(el('span','Original Chinese caption','field-title'),el('div',original,'caption-quote'));card.append(originalArea);
+    const suggestionArea=el('div','','caption-field');suggestionArea.append(el('span',suggestion?'Suggested caption':'AI flag / suggested change','field-title'),el('div',suggestion||'No correction proposed: the supplied slide evidence is insufficient.','caption-quote'));card.append(suggestionArea);
+    if(proposed)card.append(el('p',proposed,'small muted'));
+    const evidenceArea=el('div','','caption-evidence');evidenceArea.hidden=true;
+    evidenceArea.append(el('div',evidence||'No relevant slide passage is available for this case.','caption-quote'));
+    if(item.evidenceSource||scenario?.review?.source)evidenceArea.append(el('div',item.evidenceSource||scenario.review.source,'muted xsmall'));
+    const actions=el('div','','caption-review-actions');
+    const show=el('button','Review evidence','tiny');show.addEventListener('click',()=>{evidenceArea.hidden=!evidenceArea.hidden;show.textContent=evidenceArea.hidden?'Review evidence':'Hide evidence';accept.disabled=!suggestion||evidenceArea.hidden});
+    const accept=el('button','Accept correction','tiny primary');accept.disabled=true;
+    accept.addEventListener('click',()=>{if(!suggestion||evidenceArea.hidden)return;decideCaption(sid,'accepted');renderReview()});
+    const reject=el('button',suggestion?'Reject suggestion':'Dismiss flag','tiny');reject.addEventListener('click',()=>{decideCaption(sid,'rejected');renderReview()});
+    const pending=el('button','Keep pending','tiny');pending.addEventListener('click',()=>{decideCaption(sid,'pending');renderReview()});
+    actions.append(show,accept,reject,pending);
+    card.append(evidenceArea,actions);
+    $('caption-cards').append(card);
+  });
+}
+function renderReview(){updateCounts();renderVocabulary();renderCaptionCards()}
 $('review-refresh').addEventListener('click',renderReview);
-$('clear-review').addEventListener('click',()=>{if(saved.length&&!confirm('Remove all saved review items in this browser?'))return;saved=[];persist();renderReview()});
+$('clear-review').addEventListener('click',()=>{
+  if(vocabularyItems().length&&!confirm('Remove saved vocabulary only? Caption correction records will be kept.'))return;
+  saved=saved.filter(x=>x.from==='caption');persist();renderReview();
+});
 renderGlossary();loadSlide();updateCounts();
 </script>
 </body>
